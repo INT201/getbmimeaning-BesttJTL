@@ -1,4 +1,4 @@
-//const { template } = require('@babel/core')
+const { template } = require('@babel/core')
 
 function calculateBMI(weight, height) {
   //console.log(BMI=weight/(height*height))
@@ -22,7 +22,7 @@ function getBMIMeaning(weight, height) {
 }
 
 
-//module.exports = getBMIMeaning
+module.exports = getBMIMeaning
 // getBMIMeaning(65, 1.8)
 // getBMIMeaning(80, 1.7)
 // getBMIMeaning(44, 1.6)
